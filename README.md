@@ -1,0 +1,1 @@
+Questo progetto è pensato per essere aperto con streamlit su schermata intera con sfondo bianco. Eseguire uv run streamlit Web_App.py per visualizzare la web app.
