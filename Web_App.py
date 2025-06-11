@@ -1655,3 +1655,7 @@ col1, col2, col3 = st.columns([1, 8, 1])
 with col2:
     st.write(filtered_data_finale)
 
+sentiment_mapping = ["1", "2", "3", "4", "5"]
+selected = st.feedback("stars")
+if selected is not None:
+    st.markdown(f"Hai selezionato {sentiment_mapping[selected]} stelle.")
